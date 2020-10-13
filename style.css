@@ -2,6 +2,10 @@ body {
     background: #f5eeb2;
 }
 
+.photo {
+    border-radius: 50px;
+    border: 3px solid #FF8C00;
+}
 #title,.subtitle,.post_title {
     color: #FF8C00
 }
@@ -9,11 +13,25 @@ body {
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
     background: #FFFF;
-    padding: 30px;
+    padding: 15px;
     border: 3px solid rgb(255, 200, 81);
-    margin: 10px
+    margin-bottom: 15px;
+    border-radius: 5px
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom; 15px
+
+
+}
+
+.post_image {
+    margin-bottom: 15px;
 }
